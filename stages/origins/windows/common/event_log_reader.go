@@ -15,7 +15,7 @@
 package common
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
+	"sdc-edge/api"
 )
 
 type EventLogReader interface {

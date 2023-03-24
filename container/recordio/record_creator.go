@@ -13,7 +13,7 @@
 package recordio
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
+	"sdc-edge/api"
 )
 
 type RecordCreator interface {

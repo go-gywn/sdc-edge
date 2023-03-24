@@ -15,10 +15,10 @@ package runner
 import (
 	"github.com/rcrowley/go-metrics"
 	log "github.com/sirupsen/logrus"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/execution"
-	"github.com/streamsets/datacollector-edge/container/util"
+	"sdc-edge/api"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/execution"
+	"sdc-edge/container/util"
 	"time"
 )
 

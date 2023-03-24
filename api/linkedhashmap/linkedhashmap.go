@@ -14,7 +14,7 @@ package linkedhashmap
 
 import (
 	"fmt"
-	"github.com/streamsets/datacollector-edge/api/linkedhashmap/collections"
+	"sdc-edge/api/linkedhashmap/collections"
 	"strings"
 )
 

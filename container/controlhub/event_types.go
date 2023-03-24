@@ -12,7 +12,7 @@
 // limitations under the License.
 package controlhub
 
-import "github.com/streamsets/datacollector-edge/container/common"
+import "sdc-edge/container/common"
 
 const (
 	VALIDATE_PIPELINE                 = 1000

@@ -16,7 +16,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/julienschmidt/httprouter"
-	"github.com/streamsets/datacollector-edge/container/common"
+	"sdc-edge/container/common"
 	"io"
 	"net/http"
 )

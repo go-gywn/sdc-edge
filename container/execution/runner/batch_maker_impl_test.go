@@ -13,7 +13,7 @@
 package runner
 
 import (
-	"github.com/streamsets/datacollector-edge/container/common"
+	"sdc-edge/container/common"
 	"testing"
 )
 

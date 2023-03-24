@@ -16,7 +16,7 @@ package rendering
 
 import (
 	"errors"
-	winevtcommon "github.com/streamsets/datacollector-edge/stages/origins/windows/wineventlog/common"
+	winevtcommon "sdc-edge/stages/origins/windows/wineventlog/common"
 )
 
 type winEventLogPublisherManager struct {

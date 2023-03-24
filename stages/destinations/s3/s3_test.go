@@ -17,12 +17,12 @@ package s3
 import (
 	"errors"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/dataformats"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/creation"
-	"github.com/streamsets/datacollector-edge/container/execution/runner"
-	_ "github.com/streamsets/datacollector-edge/stages/services"
+	"sdc-edge/api"
+	"sdc-edge/api/dataformats"
+	"sdc-edge/container/common"
+	"sdc-edge/container/creation"
+	"sdc-edge/container/execution/runner"
+	_ "sdc-edge/stages/services"
 	"testing"
 )
 

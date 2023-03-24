@@ -13,7 +13,7 @@
 package common
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
+	"sdc-edge/api"
 )
 
 type ErrorSink struct {

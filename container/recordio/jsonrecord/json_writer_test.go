@@ -15,7 +15,7 @@ package jsonrecord
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/streamsets/datacollector-edge/api/linkedhashmap"
+	"sdc-edge/api/linkedhashmap"
 	"testing"
 )
 

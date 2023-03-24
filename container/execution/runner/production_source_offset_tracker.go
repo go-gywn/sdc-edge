@@ -13,8 +13,8 @@
 package runner
 
 import (
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/execution/store"
+	"sdc-edge/container/common"
+	"sdc-edge/container/execution/store"
 	"time"
 )
 

@@ -13,9 +13,9 @@
 package common
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/dataformats"
-	"github.com/streamsets/datacollector-edge/api/validation"
+	"sdc-edge/api"
+	"sdc-edge/api/dataformats"
+	"sdc-edge/api/validation"
 )
 
 type BaseStage struct {

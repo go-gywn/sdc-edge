@@ -21,11 +21,11 @@ import (
 	"github.com/robertkrimen/otto"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/stages/lib/scripting"
-	"github.com/streamsets/datacollector-edge/stages/stagelibrary"
+	"sdc-edge/api"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/common"
+	"sdc-edge/stages/lib/scripting"
+	"sdc-edge/stages/stagelibrary"
 	"strings"
 )
 

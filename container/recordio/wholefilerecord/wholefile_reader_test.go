@@ -14,8 +14,8 @@ package wholefilerecord
 
 import (
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/container/common"
+	"sdc-edge/api"
+	"sdc-edge/container/common"
 	"io/ioutil"
 	"os"
 	"path/filepath"

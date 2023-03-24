@@ -15,9 +15,9 @@ package jsonrecord
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/fieldtype"
-	"github.com/streamsets/datacollector-edge/container/common"
+	"sdc-edge/api"
+	"sdc-edge/api/fieldtype"
+	"sdc-edge/container/common"
 	"testing"
 )
 

@@ -12,7 +12,7 @@
 // limitations under the License.
 package execution
 
-import "github.com/streamsets/datacollector-edge/api/validation"
+import "sdc-edge/api/validation"
 
 type PreviewOutput struct {
 	PreviewStatus string              `json:"status"`

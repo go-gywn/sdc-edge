@@ -13,13 +13,12 @@
 package processors
 
 import (
-	_ "github.com/streamsets/datacollector-edge/stages/processors/delay"
-	_ "github.com/streamsets/datacollector-edge/stages/processors/expression"
-	_ "github.com/streamsets/datacollector-edge/stages/processors/fieldremover"
-	_ "github.com/streamsets/datacollector-edge/stages/processors/http"
-	_ "github.com/streamsets/datacollector-edge/stages/processors/identity"
-	_ "github.com/streamsets/datacollector-edge/stages/processors/javascript"
-	_ "github.com/streamsets/datacollector-edge/stages/processors/random_error"
-	_ "github.com/streamsets/datacollector-edge/stages/processors/selector"
-	_ "github.com/streamsets/datacollector-edge/stages/processors/tensorflow"
+	_ "sdc-edge/stages/processors/delay"
+	_ "sdc-edge/stages/processors/expression"
+	_ "sdc-edge/stages/processors/fieldremover"
+	_ "sdc-edge/stages/processors/http"
+	_ "sdc-edge/stages/processors/identity"
+	_ "sdc-edge/stages/processors/javascript"
+	_ "sdc-edge/stages/processors/random_error"
+	_ "sdc-edge/stages/processors/selector"
 )

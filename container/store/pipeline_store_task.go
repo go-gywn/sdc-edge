@@ -12,7 +12,7 @@
 // limitations under the License.
 package store
 
-import "github.com/streamsets/datacollector-edge/container/common"
+import "sdc-edge/container/common"
 
 type PipelineStoreTask interface {
 	GetPipelines() ([]common.PipelineInfo, error)

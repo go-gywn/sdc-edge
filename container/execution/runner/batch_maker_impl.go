@@ -13,8 +13,8 @@
 package runner
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/container/common"
+	"sdc-edge/api"
+	"sdc-edge/container/common"
 )
 
 type BatchMakerImpl struct {

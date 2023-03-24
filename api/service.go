@@ -13,7 +13,7 @@
 
 package api
 
-import "github.com/streamsets/datacollector-edge/api/validation"
+import "sdc-edge/api/validation"
 
 type Service interface {
 	Init(stageContext StageContext) []validation.Issue

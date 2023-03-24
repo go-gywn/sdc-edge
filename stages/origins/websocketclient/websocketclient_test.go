@@ -13,8 +13,8 @@
 package websocketclient
 
 import (
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/creation"
+	"sdc-edge/container/common"
+	"sdc-edge/container/creation"
 	"testing"
 )
 

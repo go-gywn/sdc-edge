@@ -13,13 +13,13 @@
 package datagenerator
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/recordio"
-	"github.com/streamsets/datacollector-edge/container/recordio/binaryrecord"
-	"github.com/streamsets/datacollector-edge/container/recordio/jsonrecord"
-	"github.com/streamsets/datacollector-edge/container/recordio/sdcrecord"
-	"github.com/streamsets/datacollector-edge/container/recordio/textrecord"
+	"sdc-edge/api"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/recordio"
+	"sdc-edge/container/recordio/binaryrecord"
+	"sdc-edge/container/recordio/jsonrecord"
+	"sdc-edge/container/recordio/sdcrecord"
+	"sdc-edge/container/recordio/textrecord"
 )
 
 type DataGeneratorFormatConfig struct {

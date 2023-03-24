@@ -15,8 +15,8 @@ package spooler
 import (
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/container/recordio/wholefilerecord"
+	"sdc-edge/api"
+	"sdc-edge/container/recordio/wholefilerecord"
 )
 
 func (s *SpoolDirSource) produceWholeFileRecord(batchMaker api.BatchMaker) {

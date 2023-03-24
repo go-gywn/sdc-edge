@@ -16,9 +16,9 @@ package scripting
 import (
 	"github.com/robertkrimen/otto"
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/fieldtype"
-	"github.com/streamsets/datacollector-edge/api/linkedhashmap"
+	"sdc-edge/api"
+	"sdc-edge/api/fieldtype"
+	"sdc-edge/api/linkedhashmap"
 	"math/big"
 	"strconv"
 	"time"

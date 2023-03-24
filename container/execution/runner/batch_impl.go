@@ -13,7 +13,7 @@
 package runner
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
+	"sdc-edge/api"
 )
 
 type BatchImpl struct {

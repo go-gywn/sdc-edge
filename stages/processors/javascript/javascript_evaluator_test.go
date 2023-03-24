@@ -16,11 +16,11 @@ package javascript
 
 import (
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/fieldtype"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/creation"
-	"github.com/streamsets/datacollector-edge/container/execution/runner"
+	"sdc-edge/api"
+	"sdc-edge/api/fieldtype"
+	"sdc-edge/container/common"
+	"sdc-edge/container/creation"
+	"sdc-edge/container/execution/runner"
 	"testing"
 )
 

@@ -13,9 +13,9 @@
 package runner
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/execution"
+	"sdc-edge/api"
+	"sdc-edge/container/common"
+	"sdc-edge/container/execution"
 )
 
 type PipeBatch interface {

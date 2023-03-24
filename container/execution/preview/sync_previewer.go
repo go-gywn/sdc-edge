@@ -13,11 +13,11 @@
 package preview
 
 import (
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/execution"
-	"github.com/streamsets/datacollector-edge/container/execution/runner"
-	pipelineStore "github.com/streamsets/datacollector-edge/container/store"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/common"
+	"sdc-edge/container/execution"
+	"sdc-edge/container/execution/runner"
+	pipelineStore "sdc-edge/container/store"
 )
 
 const (

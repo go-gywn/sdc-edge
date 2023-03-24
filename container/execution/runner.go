@@ -14,8 +14,8 @@ package execution
 
 import (
 	"github.com/rcrowley/go-metrics"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/container/common"
+	"sdc-edge/api"
+	"sdc-edge/container/common"
 )
 
 type Runner interface {

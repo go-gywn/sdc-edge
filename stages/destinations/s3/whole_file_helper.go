@@ -20,9 +20,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/dataformats"
-	"github.com/streamsets/datacollector-edge/container/recordio/wholefilerecord"
+	"sdc-edge/api"
+	"sdc-edge/api/dataformats"
+	"sdc-edge/container/recordio/wholefilerecord"
 )
 
 type WholeFileHelper struct {

@@ -13,9 +13,9 @@
 package delimitedrecord
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/fieldtype"
-	"github.com/streamsets/datacollector-edge/api/linkedhashmap"
+	"sdc-edge/api"
+	"sdc-edge/api/fieldtype"
+	"sdc-edge/api/linkedhashmap"
 	"testing"
 )
 

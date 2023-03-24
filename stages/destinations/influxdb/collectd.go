@@ -15,8 +15,8 @@ package influxdb
 import (
 	client "github.com/influxdata/influxdb1-client"
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/container/util"
+	"sdc-edge/api"
+	"sdc-edge/container/util"
 	"time"
 )
 

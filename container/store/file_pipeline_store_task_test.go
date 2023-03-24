@@ -14,7 +14,7 @@ package store
 
 import (
 	"fmt"
-	"github.com/streamsets/datacollector-edge/container/common"
+	"sdc-edge/container/common"
 	"io/ioutil"
 	"os"
 	"testing"

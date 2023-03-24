@@ -15,12 +15,12 @@ package jsonrecord
 import (
 	"encoding/json"
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/dataformats"
-	"github.com/streamsets/datacollector-edge/api/fieldtype"
-	"github.com/streamsets/datacollector-edge/api/linkedhashmap"
-	"github.com/streamsets/datacollector-edge/container/recordio"
-	"github.com/streamsets/datacollector-edge/container/util"
+	"sdc-edge/api"
+	"sdc-edge/api/dataformats"
+	"sdc-edge/api/fieldtype"
+	"sdc-edge/api/linkedhashmap"
+	"sdc-edge/container/recordio"
+	"sdc-edge/container/util"
 	"io"
 	"time"
 )

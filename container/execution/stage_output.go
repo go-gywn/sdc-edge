@@ -13,8 +13,8 @@
 package execution
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/container/recordio/sdcrecord"
+	"sdc-edge/api"
+	"sdc-edge/container/recordio/sdcrecord"
 )
 
 type StageOutput struct {

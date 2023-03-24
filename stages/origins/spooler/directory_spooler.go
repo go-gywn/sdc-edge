@@ -14,7 +14,7 @@ package spooler
 
 import (
 	log "github.com/sirupsen/logrus"
-	"github.com/streamsets/datacollector-edge/api"
+	"sdc-edge/api"
 	"io/ioutil"
 	"os"
 	"path/filepath"

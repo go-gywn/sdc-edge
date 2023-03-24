@@ -16,9 +16,9 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/dataformats"
-	"github.com/streamsets/datacollector-edge/container/recordio"
+	"sdc-edge/api"
+	"sdc-edge/api/dataformats"
+	"sdc-edge/container/recordio"
 	"io"
 )
 

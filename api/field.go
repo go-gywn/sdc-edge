@@ -15,8 +15,8 @@ package api
 import (
 	"errors"
 	"fmt"
-	"github.com/streamsets/datacollector-edge/api/fieldtype"
-	"github.com/streamsets/datacollector-edge/api/linkedhashmap"
+	"sdc-edge/api/fieldtype"
+	"sdc-edge/api/linkedhashmap"
 	"math/big"
 	"reflect"
 	"strconv"

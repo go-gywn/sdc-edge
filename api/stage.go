@@ -13,7 +13,7 @@
 
 package api
 
-import "github.com/streamsets/datacollector-edge/api/validation"
+import "sdc-edge/api/validation"
 
 // Stage is the base interface for Data Collector Edge stages implementations defining their common context and lifecycle.
 //

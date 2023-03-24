@@ -14,7 +14,7 @@ package textrecord
 
 import (
 	"bytes"
-	"github.com/streamsets/datacollector-edge/api/linkedhashmap"
+	"sdc-edge/api/linkedhashmap"
 	"testing"
 )
 

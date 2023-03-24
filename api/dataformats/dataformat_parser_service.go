@@ -13,7 +13,7 @@
 package dataformats
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
+	"sdc-edge/api"
 	"io"
 )
 

@@ -14,8 +14,8 @@ package recordio
 
 import (
 	"errors"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/dataformats"
+	"sdc-edge/api"
+	"sdc-edge/api/dataformats"
 	"io"
 )
 

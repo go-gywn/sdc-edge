@@ -16,12 +16,12 @@ import (
 	"bytes"
 	"github.com/dustin/go-coap"
 	log "github.com/sirupsen/logrus"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/recordio"
-	"github.com/streamsets/datacollector-edge/container/recordio/jsonrecord"
-	"github.com/streamsets/datacollector-edge/stages/stagelibrary"
+	"sdc-edge/api"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/common"
+	"sdc-edge/container/recordio"
+	"sdc-edge/container/recordio/jsonrecord"
+	"sdc-edge/stages/stagelibrary"
 	"net/url"
 )
 

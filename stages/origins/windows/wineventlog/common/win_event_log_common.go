@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"github.com/go-ole/go-ole"
 	log "github.com/sirupsen/logrus"
-	wincommon "github.com/streamsets/datacollector-edge/stages/origins/windows/common"
+	wincommon "sdc-edge/stages/origins/windows/common"
 	syswin "golang.org/x/sys/windows"
 	"syscall"
 	"time"

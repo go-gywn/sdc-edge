@@ -13,10 +13,10 @@
 package runner
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/creation"
+	"sdc-edge/api"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/common"
+	"sdc-edge/container/creation"
 )
 
 type StageRuntime struct {

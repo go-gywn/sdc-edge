@@ -17,10 +17,10 @@ package subscription
 import (
 	"github.com/Workiva/go-datastructures/queue"
 	log "github.com/sirupsen/logrus"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/stages/origins/windows/common"
-	winevtcommon "github.com/streamsets/datacollector-edge/stages/origins/windows/wineventlog/common"
-	winevtrender "github.com/streamsets/datacollector-edge/stages/origins/windows/wineventlog/subscription/rendering"
+	"sdc-edge/api"
+	"sdc-edge/stages/origins/windows/common"
+	winevtcommon "sdc-edge/stages/origins/windows/wineventlog/common"
+	winevtrender "sdc-edge/stages/origins/windows/wineventlog/subscription/rendering"
 	"golang.org/x/sys/windows"
 	"time"
 )

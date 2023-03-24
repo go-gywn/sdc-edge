@@ -16,9 +16,9 @@ import (
 	"bufio"
 	"fmt"
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/dataformats"
-	"github.com/streamsets/datacollector-edge/container/recordio"
+	"sdc-edge/api"
+	"sdc-edge/api/dataformats"
+	"sdc-edge/container/recordio"
 	"io"
 )
 

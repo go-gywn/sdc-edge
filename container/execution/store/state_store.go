@@ -15,8 +15,8 @@ package store
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/util"
+	"sdc-edge/container/common"
+	"sdc-edge/container/util"
 	"io"
 	"io/ioutil"
 	"os"

@@ -16,10 +16,10 @@ package firehose
 
 import (
 	"fmt"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/creation"
-	"github.com/streamsets/datacollector-edge/container/execution/runner"
+	"sdc-edge/api"
+	"sdc-edge/container/common"
+	"sdc-edge/container/creation"
+	"sdc-edge/container/execution/runner"
 	"testing"
 )
 

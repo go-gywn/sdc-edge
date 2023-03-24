@@ -16,12 +16,12 @@ import (
 	"context"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/dataformats"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/el"
-	"github.com/streamsets/datacollector-edge/stages/lib/datagenerator"
-	"github.com/streamsets/datacollector-edge/stages/stagelibrary"
+	"sdc-edge/api"
+	"sdc-edge/api/dataformats"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/el"
+	"sdc-edge/stages/lib/datagenerator"
+	"sdc-edge/stages/stagelibrary"
 	"io"
 )
 

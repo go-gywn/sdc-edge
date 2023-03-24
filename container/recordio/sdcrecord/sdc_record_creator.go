@@ -14,7 +14,7 @@ package sdcrecord
 
 import (
 	"errors"
-	"github.com/streamsets/datacollector-edge/api"
+	"sdc-edge/api"
 )
 
 type RecordCreator struct {

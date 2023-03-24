@@ -14,11 +14,11 @@ package dev_random
 
 import (
 	"github.com/icrowley/fake"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/linkedhashmap"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/stages/stagelibrary"
+	"sdc-edge/api"
+	"sdc-edge/api/linkedhashmap"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/common"
+	"sdc-edge/stages/stagelibrary"
 	"math"
 	"math/big"
 	"math/rand"

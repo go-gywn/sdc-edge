@@ -15,11 +15,11 @@ package manager
 import (
 	"errors"
 	"fmt"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/execution"
-	"github.com/streamsets/datacollector-edge/container/execution/preview"
-	"github.com/streamsets/datacollector-edge/container/execution/runner"
-	"github.com/streamsets/datacollector-edge/container/store"
+	"sdc-edge/container/common"
+	"sdc-edge/container/execution"
+	"sdc-edge/container/execution/preview"
+	"sdc-edge/container/execution/runner"
+	"sdc-edge/container/store"
 )
 
 type PipelineManager struct {

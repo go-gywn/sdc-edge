@@ -15,7 +15,7 @@ package http
 import (
 	"encoding/json"
 	"github.com/julienschmidt/httprouter"
-	"github.com/streamsets/datacollector-edge/container/execution"
+	"sdc-edge/container/execution"
 	"io"
 	"net/http"
 	"strconv"

@@ -15,10 +15,10 @@ package binaryrecord
 import (
 	"bufio"
 	"fmt"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/dataformats"
-	"github.com/streamsets/datacollector-edge/api/fieldtype"
-	"github.com/streamsets/datacollector-edge/container/recordio"
+	"sdc-edge/api"
+	"sdc-edge/api/dataformats"
+	"sdc-edge/api/fieldtype"
+	"sdc-edge/container/recordio"
 	"io"
 )
 

@@ -13,7 +13,7 @@
 package spooler
 
 import (
-	"github.com/streamsets/datacollector-edge/stages/lib/dataparser"
+	"sdc-edge/stages/lib/dataparser"
 	"io/ioutil"
 	"path/filepath"
 	"testing"

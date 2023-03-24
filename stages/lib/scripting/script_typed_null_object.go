@@ -13,8 +13,8 @@
 package scripting
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/fieldtype"
+	"sdc-edge/api"
+	"sdc-edge/api/fieldtype"
 )
 
 type TypedNull struct {

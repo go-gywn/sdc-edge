@@ -16,12 +16,12 @@ import (
 	"bytes"
 	MQTT "github.com/eclipse/paho.mqtt.golang"
 	log "github.com/sirupsen/logrus"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/stages/lib/dataparser"
-	mqttlib "github.com/streamsets/datacollector-edge/stages/lib/mqtt"
-	"github.com/streamsets/datacollector-edge/stages/stagelibrary"
+	"sdc-edge/api"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/common"
+	"sdc-edge/stages/lib/dataparser"
+	mqttlib "sdc-edge/stages/lib/mqtt"
+	"sdc-edge/stages/stagelibrary"
 	"time"
 )
 

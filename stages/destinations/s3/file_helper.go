@@ -17,7 +17,7 @@ package s3
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	"github.com/streamsets/datacollector-edge/api"
+	"sdc-edge/api"
 	"io"
 )
 

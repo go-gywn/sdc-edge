@@ -14,10 +14,10 @@ package jsonrecord
 
 import (
 	"encoding/json"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/dataformats"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/recordio"
+	"sdc-edge/api"
+	"sdc-edge/api/dataformats"
+	"sdc-edge/container/common"
+	"sdc-edge/container/recordio"
 	"io"
 )
 

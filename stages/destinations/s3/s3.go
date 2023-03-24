@@ -21,12 +21,12 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/el"
-	"github.com/streamsets/datacollector-edge/stages/lib/awscommon"
-	"github.com/streamsets/datacollector-edge/stages/stagelibrary"
+	"sdc-edge/api"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/common"
+	"sdc-edge/container/el"
+	"sdc-edge/stages/lib/awscommon"
+	"sdc-edge/stages/stagelibrary"
 	"strings"
 )
 

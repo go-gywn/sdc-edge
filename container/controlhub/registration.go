@@ -19,7 +19,7 @@ import (
 	"fmt"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/container/common"
+	"sdc-edge/container/common"
 	"io"
 	"io/ioutil"
 	"net/http"

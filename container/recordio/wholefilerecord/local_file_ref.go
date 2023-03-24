@@ -14,8 +14,8 @@
 package wholefilerecord
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/container/recordio/wholefilerecord/limio"
+	"sdc-edge/api"
+	"sdc-edge/container/recordio/wholefilerecord/limio"
 	"io"
 	"os"
 	"time"

@@ -16,7 +16,7 @@ package subscription
 
 import (
 	log "github.com/sirupsen/logrus"
-	wineventsyscall "github.com/streamsets/datacollector-edge/stages/origins/windows/wineventlog/common"
+	wineventsyscall "sdc-edge/stages/origins/windows/wineventlog/common"
 	"syscall"
 	"unsafe"
 )

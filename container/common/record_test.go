@@ -14,7 +14,7 @@ package common
 
 import (
 	"fmt"
-	"github.com/streamsets/datacollector-edge/api"
+	"sdc-edge/api"
 	"testing"
 )
 

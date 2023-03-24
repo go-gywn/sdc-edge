@@ -17,8 +17,8 @@ package subscription
 import (
 	"github.com/satori/go.uuid"
 	log "github.com/sirupsen/logrus"
-	"github.com/streamsets/datacollector-edge/api"
-	winevtcommon "github.com/streamsets/datacollector-edge/stages/origins/windows/wineventlog/common"
+	"sdc-edge/api"
+	winevtcommon "sdc-edge/stages/origins/windows/wineventlog/common"
 	"golang.org/x/sys/windows"
 	"syscall"
 	"time"

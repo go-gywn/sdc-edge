@@ -13,11 +13,11 @@
 package expression
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/linkedhashmap"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/creation"
-	"github.com/streamsets/datacollector-edge/container/execution/runner"
+	"sdc-edge/api"
+	"sdc-edge/api/linkedhashmap"
+	"sdc-edge/container/common"
+	"sdc-edge/container/creation"
+	"sdc-edge/container/execution/runner"
 	"strings"
 	"testing"
 )

@@ -16,8 +16,8 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/fieldtype"
+	"sdc-edge/api"
+	"sdc-edge/api/fieldtype"
 	"testing"
 	"time"
 )

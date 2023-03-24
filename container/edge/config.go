@@ -15,11 +15,11 @@ package edge
 import (
 	"github.com/BurntSushi/toml"
 	log "github.com/sirupsen/logrus"
-	"github.com/streamsets/datacollector-edge/container/controlhub"
-	"github.com/streamsets/datacollector-edge/container/execution"
-	"github.com/streamsets/datacollector-edge/container/http"
-	"github.com/streamsets/datacollector-edge/container/process"
-	"github.com/streamsets/datacollector-edge/container/util"
+	"sdc-edge/container/controlhub"
+	"sdc-edge/container/execution"
+	"sdc-edge/container/http"
+	"sdc-edge/container/process"
+	"sdc-edge/container/util"
 	"os"
 )
 

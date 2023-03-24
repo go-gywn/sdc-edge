@@ -15,7 +15,7 @@ package api
 import (
 	"context"
 	"github.com/rcrowley/go-metrics"
-	"github.com/streamsets/datacollector-edge/api/validation"
+	"sdc-edge/api/validation"
 )
 
 type StageContext interface {

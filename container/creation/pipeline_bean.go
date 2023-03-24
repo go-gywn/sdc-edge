@@ -14,9 +14,9 @@ package creation
 
 import (
 	"context"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/el"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/common"
+	"sdc-edge/container/el"
 	"time"
 )
 

@@ -20,14 +20,14 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/kinesis"
 	"github.com/sirupsen/logrus"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/dataformats"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/util"
-	"github.com/streamsets/datacollector-edge/stages/lib/awscommon"
-	"github.com/streamsets/datacollector-edge/stages/lib/datagenerator"
-	"github.com/streamsets/datacollector-edge/stages/stagelibrary"
+	"sdc-edge/api"
+	"sdc-edge/api/dataformats"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/common"
+	"sdc-edge/container/util"
+	"sdc-edge/stages/lib/awscommon"
+	"sdc-edge/stages/lib/datagenerator"
+	"sdc-edge/stages/stagelibrary"
 )
 
 const (

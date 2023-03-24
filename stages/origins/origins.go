@@ -13,16 +13,15 @@
 package origins
 
 import (
-	_ "github.com/streamsets/datacollector-edge/stages/origins/dev_data_generator"
-	_ "github.com/streamsets/datacollector-edge/stages/origins/dev_random"
-	_ "github.com/streamsets/datacollector-edge/stages/origins/dev_rawdata"
-	_ "github.com/streamsets/datacollector-edge/stages/origins/filetail"
-	_ "github.com/streamsets/datacollector-edge/stages/origins/httpclient"
-	_ "github.com/streamsets/datacollector-edge/stages/origins/httpserver"
-	_ "github.com/streamsets/datacollector-edge/stages/origins/mqtt"
-	_ "github.com/streamsets/datacollector-edge/stages/origins/sensor_reader"
-	_ "github.com/streamsets/datacollector-edge/stages/origins/spooler"
-	_ "github.com/streamsets/datacollector-edge/stages/origins/system_metrics"
-	_ "github.com/streamsets/datacollector-edge/stages/origins/websocketclient"
-	_ "github.com/streamsets/datacollector-edge/stages/origins/windows"
+	_ "sdc-edge/stages/origins/dev_data_generator"
+	_ "sdc-edge/stages/origins/dev_random"
+	_ "sdc-edge/stages/origins/dev_rawdata"
+	_ "sdc-edge/stages/origins/filetail"
+	_ "sdc-edge/stages/origins/httpclient"
+	_ "sdc-edge/stages/origins/httpserver"
+	_ "sdc-edge/stages/origins/mqtt"
+	_ "sdc-edge/stages/origins/spooler"
+	_ "sdc-edge/stages/origins/system_metrics"
+	_ "sdc-edge/stages/origins/websocketclient"
+	_ "sdc-edge/stages/origins/windows"
 )

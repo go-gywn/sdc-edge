@@ -16,11 +16,11 @@ import (
 	"encoding/csv"
 	"fmt"
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/dataformats"
-	"github.com/streamsets/datacollector-edge/api/linkedhashmap"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/recordio"
+	"sdc-edge/api"
+	"sdc-edge/api/dataformats"
+	"sdc-edge/api/linkedhashmap"
+	"sdc-edge/container/common"
+	"sdc-edge/container/recordio"
 	"io"
 )
 

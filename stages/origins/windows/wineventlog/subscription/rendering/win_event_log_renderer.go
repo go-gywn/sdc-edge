@@ -18,9 +18,9 @@ import (
 	"github.com/satori/go.uuid"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	wincommon "github.com/streamsets/datacollector-edge/stages/origins/windows/common"
-	winevtcommon "github.com/streamsets/datacollector-edge/stages/origins/windows/wineventlog/common"
+	"sdc-edge/api"
+	wincommon "sdc-edge/stages/origins/windows/common"
+	winevtcommon "sdc-edge/stages/origins/windows/wineventlog/common"
 	"strconv"
 	"unsafe"
 )

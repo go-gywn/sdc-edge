@@ -12,7 +12,7 @@
 // limitations under the License.
 package linkedhashmap
 
-import "github.com/streamsets/datacollector-edge/api/linkedhashmap/collections"
+import "sdc-edge/api/linkedhashmap/collections"
 
 type Iterator struct {
 	m       *Map

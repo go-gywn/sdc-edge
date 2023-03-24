@@ -13,7 +13,7 @@
 package creation
 
 import (
-	"github.com/streamsets/datacollector-edge/container/common"
+	"sdc-edge/container/common"
 )
 
 type StageConfigBean struct {

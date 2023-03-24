@@ -14,8 +14,8 @@ package preview
 
 import (
 	"github.com/satori/go.uuid"
-	"github.com/streamsets/datacollector-edge/container/execution"
-	pipelineStore "github.com/streamsets/datacollector-edge/container/store"
+	"sdc-edge/container/execution"
+	pipelineStore "sdc-edge/container/store"
 )
 
 type AsyncPreviewer struct {

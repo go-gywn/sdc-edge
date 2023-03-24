@@ -12,7 +12,7 @@
 // limitations under the License.
 package scripting
 
-import "github.com/streamsets/datacollector-edge/api"
+import "sdc-edge/api"
 
 func NewScriptRecord(record api.Record, scriptObject interface{}) (map[string]interface{}, error) {
 	var err error

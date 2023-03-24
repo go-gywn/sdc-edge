@@ -13,8 +13,8 @@
 package textrecord
 
 import (
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/container/util"
+	"sdc-edge/api"
+	"sdc-edge/container/util"
 )
 
 const (

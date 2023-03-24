@@ -15,9 +15,9 @@ package runner
 import (
 	"github.com/rcrowley/go-metrics"
 	log "github.com/sirupsen/logrus"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/execution"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/common"
+	"sdc-edge/container/execution"
 )
 
 const (

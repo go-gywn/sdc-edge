@@ -15,10 +15,10 @@ package binaryrecord
 import (
 	"bytes"
 	"compress/gzip"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/fieldtype"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/recordio"
+	"sdc-edge/api"
+	"sdc-edge/api/fieldtype"
+	"sdc-edge/container/common"
+	"sdc-edge/container/recordio"
 	"testing"
 )
 

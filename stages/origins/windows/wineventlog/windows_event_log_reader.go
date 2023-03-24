@@ -18,11 +18,11 @@ import (
 	"fmt"
 	"github.com/AllenDang/w32"
 	log "github.com/sirupsen/logrus"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/container/common"
-	wincommon "github.com/streamsets/datacollector-edge/stages/origins/windows/common"
-	winevtsubscription "github.com/streamsets/datacollector-edge/stages/origins/windows/wineventlog/subscription"
-	winevtrender "github.com/streamsets/datacollector-edge/stages/origins/windows/wineventlog/subscription/rendering"
+	"sdc-edge/api"
+	"sdc-edge/container/common"
+	wincommon "sdc-edge/stages/origins/windows/common"
+	winevtsubscription "sdc-edge/stages/origins/windows/wineventlog/subscription"
+	winevtrender "sdc-edge/stages/origins/windows/wineventlog/subscription/rendering"
 	"time"
 )
 

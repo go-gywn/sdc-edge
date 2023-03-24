@@ -15,9 +15,9 @@ package stagelibrary
 import (
 	"errors"
 	"fmt"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/util"
+	"sdc-edge/api"
+	"sdc-edge/container/common"
+	"sdc-edge/container/util"
 	"reflect"
 	"strings"
 	"sync"

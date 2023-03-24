@@ -13,8 +13,8 @@
 package preview
 
 import (
-	"github.com/streamsets/datacollector-edge/container/common"
-	"github.com/streamsets/datacollector-edge/container/execution"
+	"sdc-edge/container/common"
+	"sdc-edge/container/execution"
 	"time"
 )
 

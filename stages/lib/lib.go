@@ -13,5 +13,5 @@
 package lib
 
 import (
-	_ "github.com/streamsets/datacollector-edge/stages/lib/mqtt"
+	_ "sdc-edge/stages/lib/mqtt"
 )

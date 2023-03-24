@@ -14,15 +14,15 @@ package dataparser
 
 import (
 	"github.com/spf13/cast"
-	"github.com/streamsets/datacollector-edge/api"
-	"github.com/streamsets/datacollector-edge/api/validation"
-	"github.com/streamsets/datacollector-edge/container/recordio"
-	"github.com/streamsets/datacollector-edge/container/recordio/binaryrecord"
-	"github.com/streamsets/datacollector-edge/container/recordio/delimitedrecord"
-	"github.com/streamsets/datacollector-edge/container/recordio/jsonrecord"
-	"github.com/streamsets/datacollector-edge/container/recordio/sdcrecord"
-	"github.com/streamsets/datacollector-edge/container/recordio/textrecord"
-	"github.com/streamsets/datacollector-edge/container/recordio/wholefilerecord"
+	"sdc-edge/api"
+	"sdc-edge/api/validation"
+	"sdc-edge/container/recordio"
+	"sdc-edge/container/recordio/binaryrecord"
+	"sdc-edge/container/recordio/delimitedrecord"
+	"sdc-edge/container/recordio/jsonrecord"
+	"sdc-edge/container/recordio/sdcrecord"
+	"sdc-edge/container/recordio/textrecord"
+	"sdc-edge/container/recordio/wholefilerecord"
 )
 
 const (
